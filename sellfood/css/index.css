@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+.header2{
+	width: 1064px;
+	height: 65px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 100px;
+}
+.header2 .logo h1{
+	width: 161px;
+	height: 65px;
+	text-indent: -9999px;
+	background: url(../images/logo_03.png) no-repeat center;
+}
+
+.header2 .logo{
+	width: 161px;
+	height: 65px;
+	position: absolute;
+	top: 36px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.header2 .logo .search input{
+	width: 450px;
+	height: 38px;
+	border: 2px solid #308e00;
+	line-height: 38px;
+	font-size: 1.5em;
+	text-indent: 4px;
+	letter-spacing: 1px;
+	vertical-align: top;
+
+	position: absolute;
+	left: 320px;
+	top: 4px;
+
+}
+
+.header2 .logo .search button{
+	width: 87px;
+	height: 42px;
+	line-height: 38px;
+	background-color: #308e00;
+	color: #fff;
+	font-size:16px;
+
+	position: absolute;
+	left: 770px;
+	top: 4px;
+
+}
+
+.header2 .logo .search .car{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #d6d6d6;
+	background-color: #fafafa;
+	text-align: center;
+	color: #898989;
+	font-size: 11px;
+
+	position: absolute;
+	left:890px;
+	top: 4px;
+
+/*	background: url(../images/car.png) no-repeat center;
+	background-position: 17% 50%;
+*/
+}
+.header2 .logo .search .car:hover a{
+	color: red;
+}
+.header2 .logo .search .car1{
+	background: url(../images/menu03.png) no-repeat center;
+	background-position: 92% 20%;
+
+}
+
+.header2 .search .resou{
+	font-size: 12px;
+	width: 500px;
+
+	position: absolute;
+	left: 320px;
+	top: 50px;	
+}
+.header2 .search .resou:hover{
+    cursor: pointer;
+    
+}
+.header2 .search .resou strong{
+	font-weight: bold;
+
+}
+.header2 .search .resou em{
+	display: inline-block;
+	width: 48px;
+	text-align: center;
+	color: #308e00;
+	border-right: 1px dotted #a9a9a9;
+
+}
+
+.header2 .search .resou span{
+	display: inline-block;
+	width: 48px;
+    text-align: center;
+	border-right: 1px dotted #a9a9a9;
+}
+.header3{
+	width: 100%;
+	margin-top: 20px;
+
+	position: relative;
+
+}
+.header3 .background{
+	width: 100%;
+	/*width: 1064px;*/
+	/*min-width: 1540px;*/
+	height: 500px;
+	border-top: 2px solid #308e00;
+	background: url(../images/header_02.jpg) no-repeat center;
+	/*background-color: red;*/
+	margin-bottom: 20px;
+
+}
+.header3 .fs1{
+	width: 1064px;
+	margin: 0 auto;
+}
+.header3 .fs{
+	width: 1064px;
+	position: absolute;
+	top: -32px;
+	margin: 0 auto;
+}
+.header3 .bg{
+	width: 1064px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.header3 .fs .nav{
+	width: 1064px;
+	margin: 0 auto;
+}
+
+.header3 .fs .nav ul li{
+	display: inline-block;
+	width: 101px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.header3 .fs .nav ul li a{
+	box-sizing: border-box;
+	padding-right: 25px;
+	border-right: 1px dotted #666;
+
+}
+
+.header3 .fs .nav ul li:first-child{
+	background-color: #308e00;
+	width: 200px;
+	
+}
+.header3 .fs .nav ul li:first-child a{
+	color: #fff !important;
+
+}
+.header3 .fs .nav ul .n1{
+	color: #308e00;
+}
+
+.header3 .fs .nav ul li a:hover{
+	color: green;
+}
+
+
+/*头部广告部分 start*/
+
+.header3 .fs .bg .cos1{
+	width:190px;
+	height:475px;
+	background-color: rgba(0,0,0,.7);
+	padding: 10px 5px 15px 5px;
+
+/*	position: absolute;
+	left: 143px;*/
+}
+
+.header3 .fs .bg .cos1 .c1{
+	color: #fff;
+}
+.header3 .fs .bg .cos1 .c1 p{
+	font-size: 16px;
+	color: #fff;
+	text-indent: 6px;
+	margin-bottom: 3px;
+/*	background: url(../images/icon01.png) no-repeat center;
+	background-position: -3% 50%;*/
+}
+.header3 .fs .bg .cos1 .c1 a{
+	font-size: 13px;
+	display: inline-block;
+	margin-left: 7px;
+	margin-bottom: 12px;
+}
+
+.header3 .fs .bg .cos1 .c1 a:hover{
+	color: red;
+}
+.header3 .fs .bg .cos1 hr{
+	border: 1px dashed #959299;
+	width: 87%;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.header3 .fs .bg .cos2{
+	display: inline-block;
+	width: 170px;
+	height: 450px;
+	background-color: #fff;
+	padding: 15px;
+
+	position: absolute;
+	left: 857px;
+	top: 10px;
+}
+.header3 .fs .bg .cos2 .cos2_top{
+	margin-bottom: 5px;
+}
+.header3 .fs .bg .cos2 .c1{
+   font-size: 15px;
+}
+.header3 .fs .bg .cos2 .c2{
+	font-size: 12px;
+	font-weight: bold;
+	float: right;
+	margin-right: 15px;
+}
+.header3 .fs .bg .cos2 ul{
+	list-style: disc;
+	margin-left: 14px;
+	margin-bottom: 15px;
+
+}
+
+.header3 .fs .bg .cos2 ul li a{
+	display: inline-block;
+	padding: 2px 0;
+}
+.header3 .fs .bg .cos2 ul li a:hover{
+   color: red;
+}
+.header3 .fs .bg .cos2 hr{
+	border: 1px dashed #959299;
+	width: 92%;
+	margin-bottom: 15px;
+}
+
+.header3 .fs .bg .cos2 .h1{
+	width: 161px;
+	height: 132px;
+	background: url(../images/h1.jpg) no-repeat center;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+.header3 .fs .bg .cos2 .h2{
+	width: 161px;
+	height: 132px;
+	background: url(../images/h2.jpg) no-repeat center;
+	margin-left: 5px;
+
+}
+
+.header3 .fs .bg .circle ul li div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.3);
+
+}
+/*.header3 .fs .bg .circle ul li.dian{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-color: rgba(255,255,255,.3);
+}*/
+.header3 .fs .bg .circle ul li{
+	float: left;
+	margin-left: 13px;
+}
+.header3 .fs .bg .circle ul{
+	position: absolute;
+	top: 458px;
+	left: 450px;
+}
+.header3 .fs .bg .circle ul li:first-child{
+     position: absolute;
+     top: 3px;
+     left: 3px;
+
+     z-index: 20;
+}
+.header3 .fs .bg .circle ul a:hover{
+	background-color: red;
+}
+
+/*头部广告部分 end*/
+

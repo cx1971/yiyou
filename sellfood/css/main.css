@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+/*.main{
+	margin-left: 143px;
+}*/
+
+.main .discount .left{
+	width: 530px;
+	height: 60px;
+	background-color: #318e01;
+	float: left;
+
+	position: relative;
+}
+.main .discount .right{
+	width: 530px;
+	height: 60px;
+	background-color: #d1d1d1;
+	float: left;
+
+
+	position: relative;
+}
+.main .discount .to{
+	width: 1064px;
+	height: 60px;
+	margin: 0 auto;
+}
+.main .discount .left .left1{
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+
+	position: absolute;
+	top: 5px;
+	left: 25px;
+
+}
+
+.main .discount .left .left1-1{
+	width: 90px;
+	height: 20px;
+	line-height: 14px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+
+	position: absolute;
+	top: 35px;
+	left: 22px;
+}
+
+.main .discount .left .right1{
+	width: 315px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+
+	position: absolute;
+	top: 7px;
+	left: 190px;
+}
+.main .discount .right .center1{
+	width: 530px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 20px;
+	color: #707070;
+
+	position: absolute;
+	top: 5px;
+}
+.main .discount .right .center2{
+	width: 530px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 16px;
+	color: #707070;
+
+	position: absolute;
+	top: 30px;	
+}
+
+.main .discount{
+	overflow: hidden;
+	/*margin-bottom: 20px;*/
+}
+.main .discount .pic1 figure{
+	width: 210px;
+	height: 350px;
+	border: 1px solid #d1d1d1;
+	float: left;
+    margin-left: -1px;
+}
+.main .discount .pic1 .f3{
+	border: 1px solid red !important;
+	position: relative;
+	z-index: 5;
+}
+
+.main .discount .pic1{
+	width: 1064px;
+	height: 382px;
+	margin: 0 auto;
+
+	/*margin-left: 1px;*/
+	position: relative;
+
+
+}
+.main .discount .pic1 .mengban{
+	width: 210px;
+	height: 350px;
+	background-color: rgba(128,128,128,.6);
+
+	position: absolute;
+	top: 1px;
+	left: 844px;
+	z-index: 100;
+}
+.main .discount .pic1 .button{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	font-size: 13px;
+
+	position: absolute;
+	top: 100px;
+	left: 909px;
+	/*z-index: 101;*/
+}
+.main .discount .pic1 figure:hover{
+	position: relative;
+	border-color: red;
+
+}
+
+.main .discount .pic1 figure img{
+	margin-bottom: 10px;
+}
+
+.main .discount .pic1 figure .p1{
+	padding: 12px;
+
+}
+.main .discount .pic1 figure .p1 .s1{
+	font-size: 13px;
+	color: #696969;
+	display: inline-block;
+    margin-bottom: 5px;
+
+}
+.main .discount .pic1 figure .p1 i{
+	font-size: 11px;
+	color: #aaa;
+	display: inline-block;
+	margin: 5px 0;
+}
+.main .discount .pic1 figure .p1 .s2{
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.main .discount .pic1 figure .p1 .s2 em{
+	font-size: 13px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #aaa;
+    margin-left: 15px;
+}
+.main .discount .pic1 figure .p1 .s3{
+	font-size: 13px;
+	color: #aaa;
+}
+.main .discount .pic1 figure .p1 .s3 strong{
+	font-size: 13px;
+	color: red;
+	font-weight: bold;
+}
+.main .discount .pic1 figure .p1 button{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #aaa;
+	border: 1px solid #aaa;
+	background-color: #fff;
+
+	margin: 15px 50px;
+}
+.main .discount .pic1 figure .p1 button:hover{
+	background-color: red;
+}
+.main .discount .pic1 .f3 button{
+	background-color: #ff524b !important;
+}
+
+
+
+/*main1部分 start*/
+.main1{
+	width: 100%;
+	position: relative;
+}
+.main1 .bg2{
+	width: 100%;
+	height: 434px;
+	background-color: #ffef9f;
+	/*position: relative;*/
+	margin-bottom: 20px;
+
+}
+.main1 .seckill{
+	width: 1064px;
+	margin-bottom: 20px;
+
+    margin: 0 auto;
+
+
+}
+
+.main1 .seckill .con1{
+	width: 100%;
+	height: 434px;
+	/*margin: 0 auto;*/
+}
+.main1 .seckill .text{
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+    position: absolute;
+    top: 0px;
+    /*left: -100px;*/ 
+
+}
+
+.main1 .seckill .text .t1 em{
+	font-size: 12px;
+	/*margin-left: 0px;*/
+}
+
+.main1 .seckill .con{
+	width: 1064px;
+	height: 430px;
+
+	position: absolute;
+    top: 50px;
+	/*margin: 0 auto;*/
+}
+.main1 .seckill .f2{
+	width: 1064px;
+
+	/*margin: 0 auto;*/
+/*	position: absolute;
+    top: 50px;
+    left: 121px;*/
+}
+.main1 .seckill .f2 figure{
+    width: 251px;
+    height: 368px;
+    float: left;
+    /*margin-left: 15px;*/
+    padding-right: 15px;
+
+
+}
+.main1 .seckill .f2 figure .t2{
+	width: 209px;
+    height: 141px;
+    background-color: #ffce5d;
+    padding: 20px;
+
+
+}
+.main1 .seckill .f2 figure .p1{
+	font-size: 13px;
+	color: #936f12;
+	margin-bottom: 6px;
+
+}
+.main1 .seckill .f2 figure .p2{
+	font-size: 13px;
+	color: #936f12;
+	margin-bottom: 8px;
+}
+.main1 .seckill .f2 figure .p3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #4b4446;
+	margin-bottom: 8px;
+
+}
+.main1 .seckill .f2 figure .p3 em,i{
+	color: #ff6314;
+}
+.main1 .seckill .f2 figure .p4{
+	font-size: 20px;
+	font-weight: bold;
+	color: #f50200;
+
+}
+.main1 .seckill .f2 figure button{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #ff5012;
+	margin-left: 116px;
+}
+.main1 .seckill .f2 figure button:hover{
+	background-color: red;
+}
+.main1 .seckill .f2 .f2-1 .mengban{
+	width: 251px;
+	height: 364px;
+	background-color: rgba(128,128,128,.6);
+	
+	position: absolute;
+	top: 0;
+	z-index: 7;
+
+}
+.main1 .seckill .f2 .f2-1 .t3{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	font-size: 13px;
+
+	position: absolute;
+	top: 80px;
+	left: 610px;
+}
+
+/*main1部分 end*/
+
+/*第一个广告栏 start*/
+.main1 .ad1{
+	width: 100%;
+	min-width: 1064px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(../images/ad_01.jpg) no-repeat center;
+
+	margin-bottom: 20px;
+}
+
+/*第一个广告栏 end*/
+
+.main1 .ad2{
+	width: 100%;
+	min-width: 1064px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(../images/ad_02.jpg) no-repeat center;
+
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.main1 .ad3{
+	width: 100%;
+	min-width: 1064px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(../images/ad_03.jpg) no-repeat center;
+
+	margin-bottom: 20px;
+		margin-top: 20px;
+
+}
+
+

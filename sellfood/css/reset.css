@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+
+body{
+	width: 100%;
+	/*height: 9000px;*/
+	min-width: 1064px;
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b\4f53,sans-serif;
+    background-color: #fff;
+    color: #666;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font:inherit;
+}
+
+fieldset,img,input,button{
+	border: none;
+	outline-style: none;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+select,input,img{
+	vertical-align: middle;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+.shortcut{
+    height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;	
+}
+.shortcut .top_header{
+	width: 1064px;
+	margin: 0 auto;
+	
+
+}
+.shortcut .top_header .left{
+	/*margin-left: 150px;*/
+	font-size: 11px;
+	float: left;
+
+}
+
+.shortcut .top_header .left .s2{
+	margin-left: 20px;
+}
+.shortcut .top_header .left em{
+	color: #308e00;
+	display: inline-block;
+	width: 37px;
+	background: url(../images/arrows01.png) no-repeat;
+	background-position: 96% 43%;
+
+
+}
+.shortcut .top_header .right{
+	float: right;
+	/*margin-right: 150px;*/
+}
+.shortcut .top_header .right ul{
+	display: table;
+}
+.shortcut .top_header .right li{
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.shortcut .top_header .right li a:hover{
+    color: green;
+}
+.shortcut .top_header .right .reg{
+	color: #308e00; 
+}
+
+.shortcut .top_header .right .arrows{
+	background: url(../images/arrows01.png) no-repeat;
+	background-position: 100% 45%;
+
+}
+
+.shortcut .top_header .right .car{
+	background: url(../images/car.png) no-repeat;
+	background-position: -2% 50%;
+	margin-left: 10px;
+	text-indent: 7px;
+}
+
+.shortcut .top_header .right .menu{
+/*	background: url(../images/menu02.png) no-repeat;
+	background-position: -2% 50%;*/
+	margin-left: 10px;
+	text-indent: 7px;
+	background: url(../images/arrows01.png) no-repeat;
+	background-position: 100% 45%;
+
+}
+
+
+
+/*footer 部分 start*/
+footer{
+	width: 100%;
+	height: 500px;
+	min-width: 1064px;
+}
+footer .bg{
+	width: 100%;
+	height: 100px;
+	background-color: #e5e5e5;
+
+	position: relative;
+	top: 100px;
+	z-index: -10
+
+}
+footer .top{
+/*	position: absolute;
+	top: 0;*/
+	margin: 0 auto;
+
+	width: 1064px;
+	height: 100px;
+
+
+}
+footer .top ul{
+	/*display: inline-block;*/
+	width: 1064px;
+	margin: 0 auto;
+}
+footer .top ul li a{
+    font-size: 20px;
+    color: #808080;   
+    padding: 20px;
+    border-right: 1px dotted #777;
+
+}
+footer .top ul li:last-child{
+    width: 220px;
+}
+
+footer .top ul li{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 210px;
+
+	float: left;
+
+}
+/*footer .top ul{
+   position: absolute;
+   bottom: 0;
+
+   margin: 0 auto;
+}*/
+
+/*footer 中间部分*/
+
+footer .center{
+	/*position: absolute;*/
+	/*left: 70px;*/
+	/*top: 120px;*/
+	width: 1064px;
+	height: 200px;
+	margin: 20px auto;
+
+}
+footer .center .ul2{
+   float: left;
+   padding-right: 70px;
+   font-size: 13px;
+   color:#585858; 
+}
+footer .center .ul2 .li1{
+   font-size: 13px;
+   color:#818181;
+   font-weight: bold;
+
+   margin-bottom: 5px; 
+   	
+
+}
+footer .center .ul2 li{
+	padding: 3px 0;
+}
+footer .center  li a:hover{
+	color: red;
+}
+
+footer .center .erweima{
+/*	position: absolute;
+	top: 3px;
+	left: 1015px;*/
+}
+footer .center .erweima:hover{
+	cursor: pointer;
+}
+footer .center .erweima h1{
+	font-size: 13px;
+	font-weight: bold;
+	color: #585858;
+	margin-bottom: 10px;
+}
+
+
+/*footer 的底部 部分*/
+footer .bottom{
+	width: 1064px;
+	height: 80px;
+/*	position: absolute;
+	top: 320px;
+	left: 147px;*/
+	margin: 0 auto;
+}
+footer .bottom hr{
+	width: 100%;
+	border: 1px solid #d3d3d3;	
+}
+footer .bottom .ul1{
+
+    width: 1064px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer .bottom .ul1 ul{
+    margin-left: 200px;
+}
+footer .bottom .bbb{
+	width: 1064px;
+	margin: 0 auto;
+
+	text-align: center;
+}
+footer .bottom .ul1 li{
+	float:left;
+
+	font-size: 12px;
+	color: #818181; 
+
+
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+
+}
+footer .bottom .ul1 li:last-child{
+	width: 120px;
+}
+footer .bottom .ul1 li a{
+    padding:0 15px;
+    border-right: 1px dotted #818181;
+}
+footer .bottom em{
+	font-size: 12px;
+	color: #818181;
+	/*margin: 0 auto;*/
+	/*margin-left: 123px;
+	/*position: absolute;
+	top: 72px;*/
+}
+/*footer 部分 end*/
+
